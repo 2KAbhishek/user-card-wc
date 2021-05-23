@@ -50,6 +50,8 @@ template.innerHTML = `
 class UserCard extends HTMLElement {
   constructor() {
     super();
+    this.showInfo = true;
+
     this.attachShadow({ mode: "open" });
     this.shadowRoot.appendChild(template.content.cloneNode(true));
     this.shadowRoot.querySelector("h3").innerText = this.getAttribute("name");
@@ -57,7 +59,16 @@ class UserCard extends HTMLElement {
   }
 
   toggleInfo() {
-    console.log("Hi");
+    this.showInfo = !this.showInfo;
+    const info = this.shadowRoot.querySelector(".info");
+    const btn = this.shadowRoot.querySelector("#toggle-info");
+    if (this.showInfo) {
+      info.style.display = "block";
+      btn.innerText = "Hide Info";
+    } else {
+      info.style.display = "none";
+      btn.innerText = "Show Info";
+    }
   }
 
   connectedCallback() {
@@ -66,6 +77,10 @@ class UserCard extends HTMLElement {
       .addEventListener("click", () => {
         this.toggleInfo();
       });
+  }
+
+  disconnectedCallback() {
+    this.shadowRoot.querySelector("#toggle-info").removeEventListener();
   }
 }
 
