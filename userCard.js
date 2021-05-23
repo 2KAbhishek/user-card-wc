@@ -2,6 +2,9 @@ const template = document.createElement("template");
 template.innerHTML = `
     <style>
     .user-card {
+        font-family: sans;
+                line-height: 14px;
+
        background: #eee;
       color: black;
       width: 500px;
@@ -51,6 +54,18 @@ class UserCard extends HTMLElement {
     this.shadowRoot.appendChild(template.content.cloneNode(true));
     this.shadowRoot.querySelector("h3").innerText = this.getAttribute("name");
     this.shadowRoot.querySelector("img").src = this.getAttribute("avatar");
+  }
+
+  toggleInfo() {
+    console.log("Hi");
+  }
+
+  connectedCallback() {
+    this.shadowRoot
+      .querySelector("#toggle-info")
+      .addEventListener("click", () => {
+        this.toggleInfo();
+      });
   }
 }
 
