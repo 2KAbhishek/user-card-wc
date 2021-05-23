@@ -17,13 +17,21 @@
   <body>
     <h1>Users</h1>
     <user-card
-      name="Someone"
+      name="Some One"
       avatar="https://randomuser.me/api/portraits/women/5.jpg"
-    ></user-card>
+    >
+      <div slot="age">25</div>
+      <div slot="job">Singer</div>
+      <div slot="email">someone@somewhere.com</div>
+    </user-card>
     <user-card
-      name="Sometwo"
+      name="Some Two"
       avatar="https://randomuser.me/api/portraits/men/9.jpg"
-    ></user-card>
+    >
+      <div slot="age">27</div>
+      <div slot="job">Banker</div>
+      <div slot="email">sometwo@somewhere.com</div>
+    </user-card>
     <script src="userCard.js"></script>
   </body>
 </html>
