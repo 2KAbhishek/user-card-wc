@@ -10,7 +10,7 @@ template.innerHTML = `
       grid-gap: 10px;
       padding: 20px;
       margin: 20px;
-      border: 2px solid dodgerblue;
+      border: 5px solid silver;
       border-radius: 20px;
     }
 
@@ -18,7 +18,7 @@ template.innerHTML = `
         border-radius: 50%;
         width: 200px;
         height: auto;
-        border: 2px solid dodgerblue;
+        border: 3px solid dodgerblue;
     }
 
     .user-card button {
@@ -35,6 +35,7 @@ template.innerHTML = `
         <div>
         <h3> </h3>
         <div class="info">
+            <p>AGE</p>
             <p>JOB</p>
             <p>EMAIL</p>
         </div>
