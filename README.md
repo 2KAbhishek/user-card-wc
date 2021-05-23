@@ -23,7 +23,7 @@
 <a href="https://github.com/2KAbhishek?tab=followers">
 <img alt="Followers" src="https://img.shields.io/github/followers/2kabhishek?color=222&style=plastic&label=Followers"> </a>
 
-<h2>Short sweet headline with 🎇🎉</h2>
+<h2>Reusable and clean user profile web component 👧🏻👦🏻</h2>
 
 <figure>
   <img src= "https://raw.githubusercontent.com/2KAbhishek/user-card-wc/master/images/screenshot.jpg" alt="user-card-wc Demo" style="width:100%">
