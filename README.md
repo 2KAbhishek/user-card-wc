@@ -32,6 +32,7 @@
 </figure>
 
 </div>
+
 ## What is it
 
 user-card-wc is a clean and robust user profile card, that can be used in any frontend app.
