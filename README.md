@@ -23,29 +23,28 @@
 <a href="https://github.com/2KAbhishek?tab=followers">
 <img alt="Followers" src="https://img.shields.io/github/followers/2kabhishek?color=222&style=plastic&label=Followers"> </a>
 
-<h3>Reusable and clean user profile web component 👧🏻👦🏻</h3>
+<h3>Reusable user profile component 👧🏻👦🏻</h3>
 
 <figure>
-  <img src= "https://raw.githubusercontent.com/2KAbhishek/user-card-wc/master/images/screenshot.jpg" alt="user-card-wc Demo" style="width:100%">
+  <img src= "images/screenshot.jpg" alt="user-card-wc Demo" style="width:100%">
   <br/>
   <figcaption>user-card-wc Screenshot</figcaption>
 </figure>
 
 </div>
+## What is it
+
+user-card-wc is a clean and robust user profile card, that can be used in any frontend app.
 
 ## Inspiration
 
-Bareminimum was inspired by `<reason/idea>`.
-
-## What it does
-
-user-card-wc is a `<utility/tool/feature>` that allows `<insert_target_audience>` to do `<action/task_it_does>`.
+Heard about WebComponents and wanted to explore it.
 
 ## Prerequisites
 
 Before you begin, ensure you have met the following requirements:
 
-- You have installed the latest version of `<coding_language/dependency/requirement_1>`
+- You have installed the latest version of `a web browser`
 
 ## Installing user-card-wc
 
@@ -54,48 +53,19 @@ To install user-card-wc, follow these steps:
 ```bash
 git clone https://github.com/2kabhishek/user-card-wc
 cd user-card-wc
-<install_command>
-```
-
-## Using user-card-wc
-
-```bash
-USAGE:
-    command [FLAGS] [OPTIONS]
-
-FLAGS:
-    -h, --help              Prints help information.
-
-OPTIONS:
-    -o, --option <value>    Option description.
-    Options are: a, b. [default: a]
-
-Example:
-
-
 ```
 
 ## How it was built
 
-user-card-wc was built using `<tech/library>`
-
-## Challenges faced
-
-While building user-card-wc the main challenges were `<issue/difficulty>`
+user-card-wc was built using `web components`
 
 ## What I learned
 
-While building user-card-wc I `<learned/accomplished>` about `<learning/accomplishment>`
+- Learned about the basics of `WebComponents` and what problems they can solve.
 
 ## What's next
 
-Planning to add `<feature/module>`.
-
-### To-Do
-
-- [x] Setup repo
-- [ ] Think real hard
-- [ ] Start typing
+Build more components or a site maybe
 
 Hit the :star: button if you found this useful.
 
